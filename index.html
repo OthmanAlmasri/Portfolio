@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+   
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- LINK SWIPER JS CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+</head>
+<body>
+    <header class="header"> 
+
+        <!-- (الهوم) رابط يودي لصفحة الرئيسية  -->
+        <div>
+            <a href="#" class="logo">
+                <span>Othman Masri</span>
+            </a>
+        </div>
+
+        <!--  -->
+        <ul class="nav-links">
+            <li>
+                <a href="#Home" class="a-nav">Home</a>
+            </li>
+
+            <li>
+                <a href="#About"  class="a-nav">About</a>
+            </li>
+
+            <li>
+                <a href="#Skills"  class="a-nav">Skills</a>
+            </li>
+
+            <li>
+                <a href="#Projects"  class="a-nav">Projects</a>
+            </li>
+
+        </ul>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <button class="visit-btn"> <a href="https://github.com/OthmanAlmasri" target="_blank">Visit Github</a></button>
+    </header>
+
+    <section id="Home" class="home">
+        <div class="home-container">
+
+            <div class="img-container">
+                <img src="/css/Allimages/white and black man.jpg" alt="" class="img-home">
+            </div>
+
+            <div class="info-box">
+                <div class="text">
+                    <h2>Hello , I'm</h2>
+                    <h1>Othman Masri</h1>
+                    <span>Frontend Developer</span>
+                </div>
+
+                <div class="btn-group">
+                    <a href="path/to/your-cv.pdf" download="YourName-CV.pdf" class="btn" target="_blank">
+                        Download CV
+                    </a>
+                
+                    <a  class="btn" href="https://wa.me/+963952717740" class="btn" target="_blank">
+                        Contact  
+                    </a>
+
+                </div>
+
+                <div class="socials">
+                    <a  target="_blank" href="https://github.com/OthmanAlmasri"> <i class='bx bxl-github'></i></a>
+                    <a  target="_blank" href="https://www.linkedin.com/in/othman-almasri-7b2394362/"> <i class='bx bxl-linkedin-square' ></i></a>
+            
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="About"  class="about-me ">
+
+        <div class="content-about">
+            <div class="about">
+    
+                <h3 class="title-about-me">
+                    About Me
+                </h3>
+        
+                <p class="text-about-me">
+                    Hello and welcome! I'm <span>Othman</span>  Amer Almasri, a dedicated front-end developer with a passion for embracing new technologies and solving complex problems through coding. Currently, I'm immersing myself in learning ReactJs to enhance my skills further.
+                    I specialize in crafting high-performing websites that are not only visually appealing but also user-friendly and built following best practices. My goal is to create seamless digital experiences that leave a lasting impact
+                </p>
+
+                
+
+                <hr>
+            </div>
+        
+            <div class="Personal-Information">
+                <h5 class="title-Personal-Information">Personal Information</h5>
+                    
+                <ul class="personal-info" >
+                    <li class="test"><p><span>Name:</span>  Othman Amer Almasri</p> </li>
+                    <li class="test"> <p><span>Job Title:</span>  Frontend Developer</p></li>
+
+                    <li class="test"><p><span>E-mail:</span> EngOthmanAlmasri@gmail.com</p></li>
+                    <li class="test"><p><span>mobile:</span> +963952717740</p></li>
+                    
+                    
+                    
+                    
+                </ul>
+            </div>
+        </div>
+
+       <div class="img-test">
+        <img class="img-about" src="./css/Allimages/black.jpg" alt="">
+       </div>
+        
+      
+    
+        
+    </section>
+
+    <section id="Skills" class="father-skills">
+
+        <h2 class="skillsTitle">
+            skills
+        </h2>
+        
+        
+        <div class="secound-child-ToFatherSkills-skillsInfo">
+
+                <div class="card">
+                   <img src="/css/Allimages/htmllogo.png" >
+                </div>
+
+                <div class="card" >
+                     <img src="/css/Allimages/csslogo.png" >
+                </div>
+
+                <div class="card">
+                    <img src="./css/Allimages/jslogo.png" >
+                </div>
+
+                <div class="card">
+                    <img src="/css/Allimages/Tailwindlogo.png" class="Tailwindlogo">
+                </div>
+
+                <div class="card">
+                   <img src="/css/Allimages/Bootstrap_logo (1).svg" >
+                </div>
+
+                <div class="card">
+                    <img src="/css/Allimages/gitlogo.png" class="">
+                </div>
+           
+                <div class="card">
+                    <img src="/css/Allimages/githublogo.png" class="githublogo">
+                </div>
+          
+                <div class="card">
+                    <img src="/css/Allimages/postman-icon-svgrepo-com.svg" class="">
+                </div>
+         
+        </div>
+
+
+    </section> 
+
+
+    <section id="Projects" class="Latest Projects">
+        <!-- had bdl body ele bl video -->
+         
+        <div class="all-Projects">
+        
+            <div class="container swiper">
+                <div class="card-wrapper">
+                    <ul class="card-list swiper-wrapper">
+                        <li class="card-item  swiper-slide">
+                            <a href="https://othmanalmasri.github.io/To-Do-List" class="card-link"  target="_blank">
+                                <img class="card-image" src="/css/Allimages/images/click.jpg" alt="">
+                                <p class="badge designer">To Do List ✅</p>
+                                <h2 class="card-title">  Add tasks instantly with a user-friendly input field</h2>
+                                <button class='card-button bx bx-right-arrow-alt' ></button>
+                            </a>
+                        </li>
+
+                        <li class="card-item swiper-slide">
+                            <a href="https://othmanalmasri.github.io/-Coffee-Horizon/" class="card-link" target="_blank">
+                                <img class="card-image" src="/css/Allimages/images/coffeee.png" alt="">
+                                <p class="badge developerr">Coffee-Horizon ☕</p>
+                                <h2 class="card-title"> Elegant E-Commerce Platform Interface Specialized in Selling Coffee</h2>
+                                <button class='card-button bx bx-right-arrow-alt' ></button>
+                            </a>
+                        </li>
+
+                        <li class="card-item swiper-slide">
+                            <a href="https://othmanalmasri.github.io/Multi-Section-Website/" class="card-link" target="_blank">
+                                <img class="card-image" src="/css/Allimages/images/multi.jpg" alt="">
+                                <p class="badge gamer">multi section</p>
+                                <h2 class="card-title">An interactive multi-section website that offers diverse content in an organized manner</h2>
+                                <button class='card-button bx bx-right-arrow-alt' ></button>
+                            </a>
+                        </li>
+
+                        <li class="card-item swiper-slide">
+                            <a href="https://othmanalmasri.github.io/Blog/" class="card-link" >
+                                
+                                <img class="card-image" src="/css/Allimages/images/Blog.jpg" alt="">
+                                <p class="badge editor">Blog ✨</p>
+                                <h2 class="card-title"> Fast and simple blog interface for easy writing</h2>
+                                <button class='card-button bx bx-right-arrow-alt' ></button>
+                            </a>
+                        </li>
+
+                        <li class="card-item swiper-slide">
+                            <a href="https://othmanalmasri.github.io/weather/" class="card-link">
+                                <img class="card-image" src="/css/Allimages/images/weather.jpg" alt="">
+                                <p class="badge marketer"> weather ☀️</p>
+                                <h2 class="card-title">  Local and global weather conditions instantly</h2>
+                                <button class='card-button bx bx-right-arrow-alt' ></button>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-slide-button swiper-button-prev"></div>
+                    <div class="swiper-slide-button swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+ 
+
+    <footer class="footer3">
+        <div class="container">
+
+            <div class="col3">
+                <ul class="media icon">
+                    <li>
+                        <a href="https://www.facebook.com/osman.masri.52/" >
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" >
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" >
+                            <i class='bx bxl-twitter' ></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.linkedin.com/in/othman-almasri-7b2394362/" >
+                            <i class='bx bxl-linkedin-square' ></i>
+                        </a>
+                    </li>
+                </ul>
+                <p>
+                    &copy; 2025 Created with ❤ and developed by Othman Masri. All rights reserved.                    
+                </p>
+            </div>
+
+        </div>
+    </footer> 
+
+    <!-- Linking Swoper JS Script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- link custom script -->
+    <script src="/js/script.js"></script>
+
+</body>
+</html>
