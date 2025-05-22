@@ -238,7 +238,7 @@ section {
 .img-about {
   height: auto;
   width: 100%;
-  max-width: 500px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -501,7 +501,7 @@ from-slate-200 to-transparent text-neutral-600 .dark :root {
 
 @media screen and (max-width: 768px) {
   .card-wrapper {
-    margin: 0 10px 25px;
+    margin: 0 10px 20px;
   }
 
   .card-list .card-link:hover .card-button {
@@ -611,14 +611,16 @@ footer .container {
     white-space: nowrap;
   }
 
-  section {
-    width: 1120px;
+  section,
+  footer {
+    max-width: 100%; /* لا يتجاوز عرض الشاشة */
+    width: 100%; /* عرض كامل */
   }
 
-  footer {
+  /* footer {
     width: 1120px;
     overflow: hidden;
-  }
+  } */
 }
 @media (max-width: 768px) {
   header {
