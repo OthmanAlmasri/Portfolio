@@ -42,7 +42,7 @@ header {
 
 .nav-links {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   gap: 1.5rem;
 }
 
@@ -51,11 +51,11 @@ li .a-nav {
   color: white;
   font-weight: 300;
 }
-.nav-link {
+/* .nav-link {
   position: relative;
   color: var(--text-light);
   font-size: 0.95rem;
-}
+} */
 li .a-nav::before {
   position: absolute;
   content: "";
@@ -700,6 +700,7 @@ footer .container {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.9);
     border-radius: 3rem;
+    display: none;
   }
 
   .about-me {
