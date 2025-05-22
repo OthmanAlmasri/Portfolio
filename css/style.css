@@ -623,9 +623,9 @@ footer .container {
   } */
 }
 @media (max-width: 768px) {
-  header {
+  /* header {
     padding: 0.8rem 1.5rem;
-  }
+  } */
   header #menu-icon {
     display: block;
   }
@@ -633,20 +633,18 @@ footer .container {
     position: absolute;
     top: 100%;
     margin-top: 1rem;
-
     color: white;
-
-    text-align: center;
-
-    border-radius: 3rem;
-    display: none;
-    position: fixed;
-    top: -100%;
-    left: 0;
     width: 100%;
     padding: 2rem;
-    background: var(--header-bg);
+    text-align: center;
     flex-direction: column;
+    border-radius: 3rem;
+    display: flex;
+    text-align: center;
+    top: -100%;
+    left: 0;
+    background: var(--header-bg);
+    display: none;
     transition: top 0.3s ease;
   }
 
@@ -732,7 +730,7 @@ footer .container {
     flex-direction: column;
   }
 }
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   .btn-group {
     flex-direction: column;
   }
@@ -744,10 +742,10 @@ footer .container {
   .skill-card {
     width: 100%;
   }
-}
+} */
 
 /* التحسينات العامة */
-@media (hover: hover) {
+/* @media (hover: hover) {
   .btn:hover {
     transform: translateY(-3px);
   }
@@ -760,4 +758,4 @@ footer .container {
 img {
   max-width: 100%;
   height: auto;
-}
+} */
