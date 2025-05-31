@@ -171,7 +171,7 @@ section {
   font-weight: 600;
 }
 
-.info-box span {
+.info-box p {
   display: inline-block; /* يضمن عدم تأثر العنصر بتوسع الحاوية */
   -webkit-background-clip: text; /* للمتصفحات القديمة */
   -webkit-text-fill-color: transparent; /* دعم إضافي لبعض المتصفحات */
